@@ -11,13 +11,14 @@ git clone https://github.com/10779164/pdf2word.git
 
 * 进入项目目录，建立虚拟环境，并安装依赖
 
-```python
+```python3
 cd pdf2word
-pyvenv venv
-source venv/bin/active
+virtualenv venv
+#source venv/bin/active
 pip install -r requirements.txt
 ```
 
 * 修改config.cfg文件，指定存放pdf和word文件的文件夹，以及同时工作的进程数
+
 * 执行```python main.py```
 
