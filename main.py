@@ -1,3 +1,4 @@
+encoding=utf8
 import os
 from configparser import ConfigParser
 from io import StringIO
